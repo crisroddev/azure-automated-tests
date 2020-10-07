@@ -17,5 +17,5 @@ stages:
       displayName: Run Regression Tests
       continueOnError: true
       inputs:
-        script: 'newman run starteapis.json'
+        script: 'newman run starterapis.json'
         workingDirectory: $(System.DefaultWorkingDirectory)
